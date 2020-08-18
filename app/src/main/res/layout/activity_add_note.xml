@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.CreateToDO">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/def_marg"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/double_margin"
+        android:layout_marginRight="@dimen/double_margin"
+        android:layout_marginTop="@dimen/def_marg"
+
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_new_item"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            />
+
+
+        <EditText
+            android:id="@+id/addNoteActivity_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/et_title_height"
+            android:padding="@dimen/def_marg"
+            android:background="@drawable/border"
+            android:singleLine="true"
+            android:layout_marginBottom="@dimen/def_marg"
+            android:hint="@string/text_title"
+            />
+
+        <EditText
+            android:id="@+id/addNoteActivity_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/et_desc_height"
+            android:layout_marginTop="@dimen/def_marg"
+            android:padding="@dimen/def_marg"
+            android:background="@drawable/border"
+            android:gravity="top|left"
+            android:hint="@string/text_desc"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:padding="@dimen/def_marg"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/double_margin"
+            android:layout_marginRight="@dimen/double_margin"
+            android:layout_marginTop="@dimen/def_marg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btCancel"
+                android:layout_width="@dimen/bt_width"
+                android:layout_height="@dimen/bt_height"
+                android:text="@string/text_cancel"
+                android:layout_margin="@dimen/double_margin"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorAccent"
+                />
+
+
+            <Button
+                android:id="@+id/btDone"
+                android:layout_width="@dimen/bt_width"
+                android:layout_height="@dimen/bt_height"
+                android:text="@string/text_done"
+                android:layout_margin="@dimen/double_margin"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorAccent"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

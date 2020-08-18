@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="double_margin">16dp</dimen>
+    <dimen name="def_marg">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="bt_width">100dp</dimen>
+    <dimen name="bt_height">40dp</dimen>
+    <dimen name="et_desc_height">300dp</dimen>
+    <dimen name="et_title_height">40dp</dimen>
+</resources>

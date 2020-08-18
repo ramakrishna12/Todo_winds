@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">todork</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">ToDO</string>
+    <string name="search_hint">Type name…</string>
+    <string name="text_add">Add</string>
+    <string name="text_title">Title</string>
+    <string name="text_desc">Description</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_done">Done</string>
+    <string name="text_new_item">New TODO Item</string>
+</resources>
